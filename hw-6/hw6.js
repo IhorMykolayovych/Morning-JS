@@ -34,10 +34,11 @@ console.log(proverb.lastIndexOf("Добрий")); // 0
 
 // 4.Зміна регістру та заміна частини рядка: Перетворіть всі символи рядка на малі літери, потім замініть слово "Сонце" на "Місяць".
 let phrase = "Сонце світить яскраво";
-let result = phrase.toLocaleLowerCase()
+let result = phrase.toLowerCase()
 console.log(result); // cонце світить яскраво
 console.log(phrase);
 
-let phrase = "Сонце світить яскраво";
-let newPhrase = phrase.replace("Сонце", "Місяць");
+let phrase2 = "Сонце світить яскраво";
+let newPhrase = phrase2.replace("Сонце", "Місяць");
 console.log(newPhrase);  // Місяць світить яскраво
+
