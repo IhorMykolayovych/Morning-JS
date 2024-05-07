@@ -1,8 +1,8 @@
 // 1.Конкатенація рядків: Складіть повідомлення про ваш улюблений фільм, його жанр і рік виходу, використовуючи конкатенацію через оператор + та шаблонні рядки.
-var film = "Інфоголік, ";
-var genre = "Комедія, ";
+var film = "Інфоголік,";
+var genre = "Комедія,";
 var year = 2024;
-const result = film + genre + year;
+const result1 = film + " " + genre + " " + year;
 console.log(result);
 
 var film = "Інфоголік, ";
