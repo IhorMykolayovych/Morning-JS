@@ -1,3 +1,19 @@
+Список назв змінних:
+
+- batterConsistency - консистенція тіста
+- patelniaTemperature - температура пательні
+- cookingTime - час приготування
+- flipCount - кількість перевертань
+- ingredientList - список інгредієнтів
+- batterVolume - об'єм тіста
+- servingSize - розмір порції
+- toppingChoice - вибір начинки
+- remainingBatter - залишок тіста
+- patelniaOilLevel - рівень олії в пательні
+
+1. Створіть файл `hw2.js`
+2. Оголосіть в ньому вищенаведені змінні та ініціалізуйте їх значення різними типами даних.
+
 // Oголошення змінної var
 var batterConsistency;
 var patelniaTemperature;
