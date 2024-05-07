@@ -11,8 +11,8 @@ var year = 2024;
 const result2 = `${film}`.concat(`, ${genre}, ${year}`);
 console.log(result2);
 
-var film = "Інфоголік";
-var genre = "Комедія";
+var film = "Інфоголік,";
+var genre = "Комедія,";
 var year = 2024;
 const result = `${film} ${genre} ${year}`;
 console.log(result);
