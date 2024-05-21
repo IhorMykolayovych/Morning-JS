@@ -4,15 +4,15 @@
 let notice = "Добрий ранок!";
 const hour = 9;
 if (hour < 12) {
-  console.log("Добрий ранок!");
+  console.log(notice);
 }
 
 // Перевірка віку: Напишіть програму, яка перевіряє вік користувача і виводить "Ви повнолітній", якщо вік більший або дорівнює 18.
 
 let message = "Ви повнолітній";
 const age = 35;
-if (hour >= 18) {
-  console.log("Ви повнолітній");
+if (age >= 18) {
+  console.log(message);
 }
 
 // Оператор if else
